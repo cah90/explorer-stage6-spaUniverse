@@ -12,7 +12,7 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body class="home">
+	<body id="body" class="home">
 		<nav>
 			<div class="logo">
 				<svg
@@ -29,9 +29,9 @@
 				</svg>
 			</div>
 
-			<a href="/" class="active">Home</a>
-			<a href="/universe">O Universo</a>
-			<a href="/exploration">Exploração</a>
+			<a href="/" id="home" onClick="route()">Home</a>
+			<a href="/universe" id="universe" onClick="route()">O Universo</a>
+			<a href="/exploration" id="exploration" onClick="route()">Exploração</a>
 		</nav>
 
 		<div id="app"></div>
